@@ -1,0 +1,954 @@
+Prefix: : <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyJuly16>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: untitled-ontology-106: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/untitled-ontology-106#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester>
+
+
+AnnotationProperty: rdfs:comment
+
+    
+Datatype: rdf:PlainLiteral
+
+    
+Datatype: rdf:XMLLiteral
+
+    
+Datatype: rdfs:Literal
+
+    
+Datatype: xsd:Name
+
+    
+Datatype: xsd:dateTime
+
+    
+Datatype: xsd:integer
+
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#check>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InspectionMine>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasAccident>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasInspection>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasKMInspection>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InspectionKnowledgeModel>
+    
+    Range: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KMInspection>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasKnowledgeProcessesInspection>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InspectionKnowledgeModel>
+    
+    Range: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeProcessesInspection>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasKnowledgeTechnologyInspection>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InspectionKnowledgeModel>
+    
+    Range: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeTechnologyInspection>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMineSubSite>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    Range: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSubSite>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMiningMethods>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    Range: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MiningMethods>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMiningProject>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    Range: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ProjectMining>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMiningProperty>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    Range: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#PropiertyMining>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMiningStage>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMiningTypes>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    Range: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MiningTypes>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasRegulatory>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    Range: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Regulatory>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasResultsInspection>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    Range: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ResultsInspection>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSite>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    Range: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StatusMineSite>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSubSite>
+    
+    Range: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StatusMineSubSite>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#isAccessibleThrough>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeTechnologyInspection>
+    
+    Range: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataAnaliticsSolutions>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataGovernanceSolutions>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InternetOfRoboticThings>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#meetsRegulatory>
+
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#mustCumply>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    Range: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MiningMethods>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MiningTypes>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Regulatory>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#occurs>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Accident>
+    
+    Range: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#performInspectionTo>
+
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#visitMineSite>
+
+    
+ObjectProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#visitMineSubSite>
+
+    
+DataProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ActNumber>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ResultsInspection>
+    
+    Range: 
+        xsd:integer
+    
+    
+DataProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DateCreation>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    Range: 
+        xsd:dateTime
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#FinalDate>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ResultsInspection>
+    
+    Range: 
+        xsd:dateTime
+    
+    
+DataProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Identifier>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSubSite>
+    
+    Range: 
+        xsd:Name
+    
+    
+DataProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InitDate>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ResultsInspection>
+    
+    Range: 
+        xsd:dateTime
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Name>
+
+    Domain: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    Range: 
+        rdfs:Literal
+    
+    
+DataProperty: owl:topDataProperty
+
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Abandoned>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StatusMineSubSite>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Accident>
+
+    Annotations: 
+        rdfs:comment "Is unplanned event that can result in injury or ill health of people, and/or damage to or loss of property, plants, materials, machinery, processes or the environment, and business opportunity . An accident is an unforeseen and unplanned event or circumstance, often with lack of intention or necessity. It usually implies a generally negative outcome which might have been avoided or prevented. For the accident classification we use the ISO 19434:2017 standard, a classification of mine accidents established according to origin or causes, type of accident and its results or consequences on people."
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeProcessesInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Active>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StatusMineSubSite>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMiningStage> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Exploitation>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSite> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#OperationalStatus>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#mustCumply> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#EnvironmentalRegulatory>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#mustCumply> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LegalsRegulatory>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#mustCumply> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SafetyandHygieneRegulatory>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#mustCumply> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SocialSecurityRegulatory>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#mustCumply> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#TechnicalRegulatory>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#BusinessModelInspection>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KMInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Causes>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Accident>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Closure>
+
+    Annotations: 
+        rdfs:comment "The closure plan must be approved by a variety of mining stakeholders, including government and community members. Considerations when planning for closure include: protecting public health and safety, addressing environmental damage, returning the land to its original state or an acceptable new use, and sustaining social and economic benefits brought by the mine. The succeeding custodian, the party responsible for the land after the mine closes, should establish an agreement with the mining company early in the life cycle of the mine, to develop a closure plan that minimizes risks and liabilities."@en
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StageMining>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Consequences>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Accident>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#CorrectiveMeasures>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ResultsInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataAnaliticsSolutions>
+
+    Annotations: 
+        rdfs:comment "Infrastructure as a service (IaaS) is a form of cloud computing that provides virtualized computing resources over the internet.",
+        rdfs:comment "Infrastructure as a service (IaaS) is a form of cloud computing that provides virtualized computing resources over the internet. Is the basic layer in cloud computing model."@en
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeTechnologyInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataGovernanceInspection>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KMInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataGovernanceSolutions>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeTechnologyInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DecisionMakingSupport>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KMInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Development>
+
+    Annotations: 
+        rdfs:comment "The development stage usually takes 4-12 years to open an ore deposit for production, and may cost anywhere from $1 million to over $1 billion to complete depending on the type of mine. Development involves extensive pre-development planning and paperwork. Budget and financial reports are prepared and permits are requested. Reports regarding potential impacts on the environment and nearby communities are generated. Plans are assessed regarding the: 1) the mining process/technology that will be used, 2) building of access roads for transportation, 3) identification of resources such as power and water sources, and 4) construction of ore processing facilities and disposal areas for waste. At this point, tens of millions to hundreds of millions of dollars may have been invested in the project, but it may fail to open if the pre-development requirements are not met, including acceptance by the community. At this stage, just enough development of the mine site is performed to ensure that it will be able to be productive for the life of the mine, without later interruption.
+
+Plans are made for the appropriate type of mining that will be performed. There are three major types of mining, surface mining, underground mining, and solution mining; their use depends on the type of ore and where it is located, as well as issues of safety, technology, economics, and environmental impacts."@en
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StageMining>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DocumentaryEvaluation>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ResultsInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#EnvironmentalRegulatory>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Regulatory>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Evidences>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ResultsInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Exploitation>
+
+    Annotations: 
+        rdfs:comment "Exploitation or Extraction. 
+In the extraction stage the mineral is removed from the earth in large quantities as the mine begins producing. This stage is typically what we envision when we think of mining. Some exploration and development may continue at this stage, as well. The extraction stage can take from 5-30 years to complete, although many mines have been open for more than 100 years, and may cost anywhere from a few million dollars to hundreds of millions of dollars a year depending on the size of the mine and its location."@en
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StageMining>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Exploration>
+
+    Annotations: 
+        rdfs:comment "In mining exploration, experts use additional techniques to determine the possible size and value of the mineral deposit discovered during prospecting. Depending on the ownership of the land, a Mineral Rights Lease, a contractual arrangement that allows the holder to explore/exploit an area that contains minerals, may be required. Samples that are collected by drilling undergo various analyses by geologists and metallurgists to determine the richness and extent of the mineral, both vertically and horizontally. Such analyses of geological confidence and technical and economic evaluation allow experts to label the deposit as a “mineral resource” and/or an “ore reserve,” to better establish the economic value of the deposit and to estimate mining costs."@en
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StageMining>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#FinalClosure>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StatusMineSubSite>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Finding>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ResultsInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InSituMining>
+
+    Annotations: 
+        rdfs:comment "In-situ mining, primarily used in uranium mining, involves dissolving the existing mineral resource and then processing it on the surface without moving rock from the ground."
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MiningMethods>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Inactive>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StatusMineSubSite>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InclusionofOtherDataSources>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ResultsInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InspectionKnowledgeModel>
+
+    SubClassOf: 
+        owl:Thing
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InspectionMine>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeProcessesInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InternetOfRoboticThings>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeTechnologyInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Irregular>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StatusMineSubSite>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KMInspection>
+
+    Annotations: 
+        rdfs:comment "Knowledge Management Inspection, describes the elements that make up the general ontology such as: the business model, the governance model and the elements that support decision-making.
+The mining inspection has knowledge management through the transformation of the knowledge acquired during the inspections and the experience of those who carry it out. That is why this process is described from the knowledge management, which allows describing the elements that make up the knowledge within the mining inspection processes and the relationships between them for the creation of the ontology."@en
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InspectionKnowledgeModel>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeProcessesInspection>
+
+    Annotations: 
+        rdfs:comment "The knowledge process inspections describes the elements that make up the domain ontology: Mine Inspection, Mining Project, Mining Stage and Mining Property. These elements are described in detail in the next section."@en
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InspectionKnowledgeModel>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeTechnologyInspection>
+
+    Annotations: 
+        rdfs:comment "Describe the elements that make up the task ontology. These elements are Software as a Service, Infrastructure as a Service, Data as a Service and Platform as a Service. This technological model was taking from Abdulla et al., 2011. The technological elements that support the knowledge layer include: knowledge bases (as organizational memory and semantic repository), information systems (like learning management systems, knowledge management content, knowledge-based systems, decision support systems, data mining, etc.). The information retrieval system, document management and workflow management support organizational memory."@en
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InspectionKnowledgeModel>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LackofEvidence>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ResultsInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LargeScaleMining>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MiningTypes>
+    
+    DisjointWith: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SmallScaleMining>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LegalsRegulatory>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Regulatory>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MediumScaleMining>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MiningTypes>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+
+    Annotations: 
+        rdfs:comment "The sites for exploitation of ore and production for mineral raw materials, and is a discrete production system targeted for the development of resources. A mine site is defined as a mining concession recognized by a government through an appropriate license (permit) type. A mine site will often have several subsites where mining takes place and which are differentiated for traceability."@en
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeProcessesInspection>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMiningMethods> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSubSite>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeProcessesInspection>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSubSite>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MiningMethods>
+
+    Annotations: 
+        rdfs:comment "There are four main mining methods: underground, open surface (pit), placer, and in-situ mining."
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMiningMethods> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InSituMining>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMiningMethods> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#PlacerMining>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMiningMethods> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SurfaceMining>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMiningMethods> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#UndergroundMining>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMiningMethods> only 
+            (<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InSituMining> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#PlacerMining> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SurfaceMining> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#UndergroundMining>)
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MiningTypes>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMiningTypes> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LargeScaleMining>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMiningTypes> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SmallScaleMining>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMiningTypes> only 
+            (<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LargeScaleMining> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SmallScaleMining>)
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#NoOperationalStatus>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StatusMineSite>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> only <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Abandoned>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> only <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#FinalClosure>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> only <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Irregular>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> only <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#PartialClosure>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> only <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#TemporaryClosure>
+    
+    DisjointWith: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#OperationalStatus>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#OperationalStatus>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StatusMineSite>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Irregular>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ParalyzedbySanction>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> min 1 <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Active>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> min 1 <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Inactive>
+    
+    DisjointWith: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#NoOperationalStatus>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ParalyzedbyProvisionalMeasure>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StatusMineSubSite>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ParalyzedbySanction>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StatusMineSubSite>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#PartialClosure>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StatusMineSubSite>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Penalties>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ResultsInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#PlacerMining>
+
+    Annotations: 
+        rdfs:comment "Placer mining is used in river channels, beach sands, or other environments to sift valuable metals from sediments."
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MiningMethods>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ProjectMining>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeProcessesInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#PropiertyMining>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeProcessesInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Prospecting>
+
+    Annotations: 
+        rdfs:comment "Prospecting is the first stage of the geological analysis of a territory. It is the search for minerals, fossils, precious metals or mineral specimens, and is also known as fossicking.
+Prospecting is the process of searching the region for mineral deposits.
+Modern prospecting uses a variety of geological methods. Geology experts use a direct method to discover surface mineral deposits by examining the area visually. Geophysics experts use an indirect method to identify underground mineral deposits by detecting rock alterations under the surface. Geochemistry can also be used to analyze samples of soil, rock, and water."@en
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StageMining>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Reclamation>
+
+    Annotations: 
+        rdfs:comment "The mining organization begins planning for mine closure and reclamation early on; even before a mine is allowed to open, a reclamation plan must be set in place for its closure. In these reclamation plans the mining operator describes the processes it will use to attempt to restore or redevelop the land that has been mined to a more natural or economically usable state. This can include removing buildings and roads as well as covering up and re-vegetating rock piles. Federal and state regulations require mining companies to post funding for closure before the mining project begins. This is to ensure that reclamation is completed at the end of the mining closure (Arms, 2004). Once the mine has been depleted or is no longer economically feasible to continue mining, the mining operators must contact local and state agencies to close the mine, and must comply with their respective regulations.
+The closure plan must be approved by a variety of mining stakeholders, including government and community members. Considerations when planning for closure include: protecting public health and safety, addressing environmental damage, returning the land to its original state or an acceptable new use, and sustaining social and economic benefits brought by the mine. The succeeding custodian, the party responsible for the land after the mine closes, should establish an agreement with the mining company early in the life cycle of the mine, to develop a closure plan that minimizes risks and liabilities.
+
+The cost of closing a mine depends on the age, location, type, and size of mine, amount of waste, geological characteristics, and type of mineral being extracted."@en
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StageMining>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Regulatory>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasRegulatory> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#EnvironmentalRegulatory>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasRegulatory> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LegalsRegulatory>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasRegulatory> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SafetyandHygieneRegulatory>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasRegulatory> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SocialSecurityRegulatory>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasRegulatory> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#TechnicalRegulatory>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasRegulatory> only 
+            (<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#EnvironmentalRegulatory> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LegalsRegulatory> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SafetyandHygieneRegulatory> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SocialSecurityRegulatory> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#TechnicalRegulatory>)
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ResultsInspection>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InspectionMine>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SafetyandHygieneRegulatory>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Regulatory>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SmallScaleMining>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MiningTypes>
+    
+    DisjointWith: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LargeScaleMining>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SocialSecurityRegulatory>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Regulatory>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StageMining>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeProcessesInspection>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StatusMineSite>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSite> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#NoOperationalStatus>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSite> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#OperationalStatus>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSite> only 
+            (<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#NoOperationalStatus> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#OperationalStatus>)
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StatusMineSubSite>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSubSite>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Abandoned>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Active>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#FinalClosure>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Inactive>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Irregular>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ParalyzedbyProvisionalMeasure>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ParalyzedbySanction>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#PartialClosure>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> some <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#TemporaryClosure>,
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasStatusMineSubSite> only 
+            (<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Abandoned> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Active> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#FinalClosure> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Inactive> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Irregular> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ParalyzedbyProvisionalMeasure> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ParalyzedbySanction> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#PartialClosure> or <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#TemporaryClosure>)
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SurfaceMining>
+
+    Annotations: 
+        rdfs:comment "Surface mining, including strip mining, open-pit mining and mountaintop removal mining, is a broad category of mining in which soil and rock overlying the mineral deposit (the overburden) are removed."@en
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MiningMethods>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#TechnicalRegulatory>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Regulatory>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#TemporaryClosure>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#StatusMineSubSite>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Type>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Accident>
+    
+    
+Class: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#UndergroundMining>
+
+    Annotations: 
+        rdfs:comment "Underground mining consists of digging tunnels or shafts into the earth to reach buried ore deposits. Ore, for processing, and waste rock, for disposal, are brought to the surface through the tunnels and shafts. Sub-surface mining can be classified by the type of access shafts used, and the extraction method or the technique used to reach the mineral deposit."@en
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MiningMethods>
+    
+    
+Class: owl:Thing
+
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#AWSElasticBeanstalk>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataGovernanceSolutions>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#AmazonWebServices>
+
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ApacheStratos>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataGovernanceSolutions>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#CiscoMetapod>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataAnaliticsSolutions>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#CiscoWebEx>
+
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Concur>
+
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataLake>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InternetOfRoboticThings>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataWarehouse>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InternetOfRoboticThings>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Database>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InternetOfRoboticThings>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DigitalOcean>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataAnaliticsSolutions>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Dropbox>
+
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Force.com>
+
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#GoToMeeting>
+
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#GoogleAppEngine>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataGovernanceSolutions>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#GoogleApps>
+
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#GoogleComputeEngine>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataAnaliticsSolutions>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Heroku>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataGovernanceSolutions>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LaEscondida>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSite>
+    
+    Facts:  
+     <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMineSubSite>  <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LagunaSeca>,
+     <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasMineSubSite>  <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LosColorados>,
+     <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Name>  ""
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LagunaSeca>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSubSite>
+    
+    Facts:  
+     <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasAccident>  <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#RockFall>,
+     <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasResultsInspection>  <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#TunnelClosure>,
+     <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Name>  ""
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Linode>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataAnaliticsSolutions>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LosColorados>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MineSubSite>
+    
+    Facts:  
+     <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasResultsInspection>  <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LosColorados>,
+     <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Name>  ""
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#MicrosoftAzure>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataAnaliticsSolutions>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#OpenShift>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataGovernanceSolutions>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#RockFall>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Causes>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Salesforce>
+
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#TunnelClosure>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Consequences>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#TunnelingAccident>
+
+    Types: 
+        <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Accident>
+    
+    Facts:  
+     <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#hasResultsInspection>  <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#TunnelClosure>
+    
+    
+Individual: <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#WindowsAzure>
+
+    
+DisjointClasses: 
+    <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Abandoned>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Active>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#FinalClosure>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Inactive>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Irregular>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ParalyzedbyProvisionalMeasure>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#ParalyzedbySanction>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#PartialClosure>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#TemporaryClosure>
+
+DisjointClasses: 
+    <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#BusinessModelInspection>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DataGovernanceInspection>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DecisionMakingSupport>
+
+DisjointClasses: 
+    <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Causes>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Consequences>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Type>
+
+DisjointClasses: 
+    <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Closure>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Development>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Exploitation>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Exploration>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Prospecting>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Reclamation>
+
+DisjointClasses: 
+    <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#CorrectiveMeasures>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#DocumentaryEvaluation>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Evidences>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Finding>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InclusionofOtherDataSources>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LackofEvidence>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#Penalties>
+
+DisjointClasses: 
+    <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#EnvironmentalRegulatory>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#LegalsRegulatory>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SafetyandHygieneRegulatory>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SocialSecurityRegulatory>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#TechnicalRegulatory>
+
+DisjointClasses: 
+    <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#InSituMining>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#PlacerMining>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#SurfaceMining>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#UndergroundMining>
+
+DisjointClasses: 
+    <http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KMInspection>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeProcessesInspection>,<http://www.semanticweb.org/amunoz/ontologies/2020/6/7/InspectionOntologyOWLManchester#KnowledgeTechnologyInspection>
+
