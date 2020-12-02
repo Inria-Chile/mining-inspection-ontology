@@ -12,7 +12,7 @@ This repository contains the mine inspection ontology source files as defined th
 Resources:
 
 * [Ontology definition in OWL](https://github.com/Inria-Chile/mining-inspection-ontology/blob/master/MineInspectionOntology.owl).
-* [OWL Web visualization](http://www.visualdataweb.de/webvowl/#iri=hhttps://raw.githubusercontent.com/Inria-Chile/mining-inspection-ontology/master/MineInspectionOntology.owl).
+* [OWL Web visualization](http://www.visualdataweb.de/webvowl/#iri=https://raw.githubusercontent.com/Inria-Chile/mining-inspection-ontology/master/MineInspectionOntology.owl).
 
 ## Abstract
 
